@@ -1,0 +1,36 @@
+.staff-label {
+    display: flex;
+    flex-flow: row;
+    width: 500px;
+}
+
+.staff-label__picture-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.staff-label__details {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.staff-label__name {
+    display: grid;
+    grid-template-columns: 1fr 50px;
+    grid-gap: 10px;
+    font-size: calc(1em + 0.6vw);
+    align-items: flex-end;
+}
+
+.staff-label__role {
+    color: #929292;
+    font-size: calc(1em + 0.3vw);
+}
+
+.staff-label__rating {
+    font-size: calc(1em - .4vw);
+    color: #929292;
+}
